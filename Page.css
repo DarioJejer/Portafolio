@@ -32,7 +32,7 @@
 .experience {
     margin: 30px 0px;
 }
-.experience > hr {
+hr {
     width: 50%;
 }
 .experience > .card {
@@ -41,6 +41,20 @@
 }
 .experience > .card > .description {
     padding-left: 20px;
+}
+
+.projects > .card {
+    flex-direction: row; 
+    padding: 20px;
+}
+.projects > .card > .description {
+    padding-left: 20px;
+}
+.projects > .card > .description > .links {
+    width: 200px;
+    display: flex;
+    justify-self: center;
+    justify-content: space-around;
 }
 
 
