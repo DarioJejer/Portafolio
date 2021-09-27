@@ -8,12 +8,12 @@
     padding: 30px;    
 }
 
-.about{
+.content {
     margin: auto;
     padding: 30px;
 }
 
-.tech-stack{
+.tech-stack {
     height: 80px;
     display: flex;
     justify-content: space-around;
@@ -29,20 +29,35 @@
     width: 300px;
 }
 
+.experience {
+    margin: 30px 0px;
+}
+.experience > hr {
+    width: 50%;
+}
+.experience > .card {
+    flex-direction: row; 
+    padding: 20px;
+}
+.experience > .card > .description {
+    padding-left: 20px;
+}
+
+
 @media screen and (min-width: 768px){
-    .about {
+    .content {
         max-width: 720px;
     }
 }
 
 @media screen and (min-width: 992px){
-    .about {
+    .content {
         max-width: 960px;
     }
 }
 
 @media screen and (min-width: 1200px){
-    .about {
+    .content {
         max-width: 1140px;
     }
 }
