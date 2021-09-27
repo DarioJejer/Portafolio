@@ -29,11 +29,12 @@
     width: 300px;
 }
 
-.experience {
-    margin: 30px 0px;
-}
 hr {
     width: 50%;
+}
+
+.experience {
+    padding-top: 150px;
 }
 .experience > .card {
     flex-direction: row; 
@@ -43,6 +44,9 @@ hr {
     padding-left: 20px;
 }
 
+.projects {
+    padding-top: 150px;
+}
 .projects > .card {
     flex-direction: row; 
     padding: 20px;
