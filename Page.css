@@ -4,3 +4,26 @@
     width: 600px;
     margin: 30px 0px;
 } 
+
+.about{
+    /* text-align: center; */
+    margin: auto;
+}
+
+@media screen and (min-width: 768px){
+    .about {
+        max-width: 720px;
+    }
+}
+
+@media screen and (min-width: 992px){
+    .about {
+        max-width: 960px;
+    }
+}
+
+@media screen and (min-width: 1200px){
+    .about {
+        max-width: 1140px;
+    }
+}
