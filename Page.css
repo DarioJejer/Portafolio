@@ -2,12 +2,31 @@
 
 #navbarNav > ul {
     width: 600px;
-    margin: 30px 0px;
 } 
 
+.container-md {
+    padding: 30px;    
+}
+
 .about{
-    /* text-align: center; */
     margin: auto;
+    padding: 30px;
+}
+
+.tech-stack{
+    height: 80px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.PERN {
+    width: 500px;
+}
+.NET {
+    width: 200px;
+}
+.LEN {
+    width: 300px;
 }
 
 @media screen and (min-width: 768px){
