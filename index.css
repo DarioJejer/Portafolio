@@ -24,11 +24,19 @@
     width: 50%;
 }
 
+.about > .stacks-section {
+    margin-top: 100px;
+}
+.about > .stacks-section > h2{
+    text-align: center;
+}
+
 .tech-stack {
     height: 80px;
     display: flex;
     justify-content: space-around;
     align-items: center;
+    margin: 0 auto;
 }
 .PERN {
     width: 400px;
